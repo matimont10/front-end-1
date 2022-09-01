@@ -1,55 +1,117 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-header{
+body{
+    background-color: #E5E5E5;
+}
+
+/*estilizamos el header*/
+
+header {
+    background-color: black;
     display: flex;
-    box-shadow: 0px  rgba(0, 0, 0, 0.5);
-    background-color: #000;
     justify-content: space-between;
+}
+
+.nav-header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.ul-header {
+    list-style: none;
+    display: flex;
     
 }
 
-.div-header{
-    display: flex;
-    align-items: center;
-    align-items: flex-end;
+.div-header {
+    margin: 5px;
 }
 
-.nav-header{
-    display: flex;
-    color: #fff;
-    align-items: center;
-}
-
-.ul-header{
-    display: flex;
-    color: #f3f3f3;
-}
-
-li{
+header li {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+   
 }
 
-p{
-    background-image: url(https://images3.alphacoders.com/621/621682.jpg);
-    background-size: contain;
+/* estilizando las cards */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.delivery {
+    margin-right: 10px;
+}
+
+.podio {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;    
+}
+
+.podio-titulo {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.info-pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -270px;
+}
+
+/*.falling {
+    display: flex;
+    width: 50px;
+    height: 200px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.menu-pizzas {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
     
-}
+}*/
 
-p{
+/* estilizamos el footer */
+
+footer {
     background-color: black;
-    opacity: 0.5;
-    
-    color: #f4e033;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
-p{
-    background-color: orange;
-    color: white;
-    opacity: 0.4;
+.footer-ul {
+    list-style: none;
+    color: #fff;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+footer li {
+    margin: 10px;
+    line-height: 20px;
+}
+
+.logo-footer {
+    margin: 20px;
 }
