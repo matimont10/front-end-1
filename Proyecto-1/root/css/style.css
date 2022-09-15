@@ -1,0 +1,301 @@
+/* Estilizamos el universo */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Estilizamos el contenedor global */
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Estilizamos el header */
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 7% 1%;
+}
+
+#logo {
+    height: 30%;
+}
+
+.fa-bars{
+    font-size: 40px;
+}
+
+/* Estilizamos el grafico */
+.container-grafico {
+   margin-bottom: 50%;
+}
+
+.container-grafico img {
+    height: 30%;
+    width: 100%;
+}
+
+/* Estilizamos container-bring */
+.conatainer-bring {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4%;
+}
+
+#bring {
+    color: #232C50;
+    font-weight: 900;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+#parrafo-bring {
+    text-align: center;
+    margin: 0 7% 10% 3%;
+}
+
+.btn-get {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8B48BF;
+    color: #ffffff;
+    margin-bottom: 40%;
+}
+
+/* Estilizamos container-diferent */
+.container-diferent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4%;
+    
+}
+
+#what {
+    color: #232C50;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#parrafo-what {
+    color: #000000;
+    text-align: center;
+    margin: 0 11% 0 11%;
+    margin-bottom: 30%;
+}
+
+/* Estilizamos los articulos */
+.articulos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 25%;
+}
+
+.title-art {
+    background-color: rgba(139, 72, 191, 0.30);
+    display: flex;
+    align-items: center;
+    padding: 0.1% 0 0.1%;
+    border-radius: 30px 0 0 30px;
+    margin-bottom: 10%;
+}
+
+.title-art span {
+    background-color: #8B48BF;
+    padding: 3% 6%;
+    border-radius: 30px;
+    margin-right: 4%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.art p {
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    color: #B3B2B7;
+}
+
+/* Estilizamos personas */
+.articles-personas h3 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 20%;
+    display: flex;
+}
+
+.articles-personas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.img-person{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen-oculta{
+    display: none;
+}
+
+/* Estilizamos Ali */
+.ali-card{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ali-card h4{
+   margin: 15% 0 5% 0;
+}
+
+.cartas-img{
+    position: relative;
+    top: 2em;
+}
+
+.words {
+    text-align: center;
+    margin: 0 3% 0 3%;
+}
+
+.btn-get-ali {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8B48BF;
+    color: #ffffff;
+    margin: 15% 0 35% 34%;
+}
+/* Estilizamos Anisha */
+.anisha-card {
+    display: none;
+}
+
+/* Estilizamos a richard */
+.richard-card {
+    display: none;
+}
+
+
+.btn-oculto{
+    display: none;
+}
+
+/* Estilizamos el footer */
+
+/* Estilizamos footer-1 */
+.footer-1 {
+    background-color: #8B48BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 15% 0;
+}
+
+.footer-1 h4 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10% 8% 10% 8%;
+    color: #ffffff;
+}
+
+.button-footer-1 {
+    margin-top: 10%;
+}
+
+.button-footer-1 button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #8B48BF;
+}
+
+
+/* Estilizamos el footer */
+.footer-2 {
+    background-color: #1E1E26;
+    height: 100%;
+}
+
+/* Estilizamos formulario */
+.form {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10%;
+    margin-bottom: 0 7% 0 0;
+}
+
+#inbox {
+    padding: 3% 20% 3% 3%;
+    margin: 0 2% 0 10%;
+    border-radius: 20px;
+}
+
+.form button {
+    padding: 3% 6%;
+    border-radius: 20px;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    border: none;
+}
+/* Estilizamos container-list-footer */
+.container-lista-footer {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #8B48BF; */
+    padding: 5% 0 10%;
+    color: #FFFFFF;
+}
+
+.footer-list li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+/* Estilizamos iconos */
+.iconos {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilizamos logo-footer */
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/* Estilizamos copy */
+.copy {
+    display: flex;
+    justify-content: center;
+    color: #8C8C94;
+    padding: 10%  ;
+    font-size: 10px;
+}
+
+
